@@ -6,7 +6,7 @@
      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-     <title>Dados</title>
+     <title>Relatórios</title>
    </head>
 
    <body>
@@ -37,13 +37,30 @@
 	      </ul>
 	    </div>
 	  </nav>
+	  
 	  <div class="row">
-	  	<div class="col s3">
-	      <div class="collection">
-	        <a href="training.jsp" class="collection-item">Classificação manual</a>
-	        <a href="reports.jsp" class="collection-item">Relatórios</a>
-	      </div>
+	  
+	  	<div class="col s6">
+	  	
 	  	</div>
+	  	
+	  	<div class="col s6">
+	  	
+	  	</div>
+	  	
 	  </div>
+	  
+	  <div class="row">
+	  
+	  	<div class="col s6">
+	  	
+	  	</div>
+	  	
+	  	<div class="col s6">
+	  	
+	  	</div>
+	  	
+	  </div>
+	  
    </body>
  </html>

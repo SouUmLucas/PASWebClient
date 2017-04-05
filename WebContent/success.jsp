@@ -6,7 +6,7 @@
      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-     <title>Dados</title>
+     <title>Resultado</title>
    </head>
 
    <body>
@@ -21,6 +21,11 @@
     		});
   		});
 	 </script>
+	 <style>
+	 body {
+    background-color: teal;
+}
+	 </style>
      
 	  <ul id="slide-out" class="side-nav">
 	    <li><a href="index.jsp" class="waves-effect"><i class="material-icons">view_module</i>Início</a></li>
@@ -37,13 +42,10 @@
 	      </ul>
 	    </div>
 	  </nav>
-	  <div class="row">
-	  	<div class="col s3">
-	      <div class="collection">
-	        <a href="training.jsp" class="collection-item">Classificação manual</a>
-	        <a href="reports.jsp" class="collection-item">Relatórios</a>
-	      </div>
-	  	</div>
+	  
+	  <div class="container">
+	  	<h1 style="text-align:center; color:white" }>Processamento concluído</h1>
 	  </div>
+	  
    </body>
  </html>
