@@ -40,7 +40,7 @@
 	  <div class="row">
 	  	<div class="col s3">
 	      <div class="collection">
-	        <a href="training.jsp" class="collection-item">Classificação manual</a>
+	        <a href="training.jsp" class="collection-item">Treinamento manual</a>
 	        <a href="reports.jsp" class="collection-item">Relatórios</a>
 	      </div>
 	  	</div>

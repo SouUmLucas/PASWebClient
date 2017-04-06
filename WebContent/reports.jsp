@@ -12,6 +12,7 @@
    <body>
      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
      <script type="text/javascript" src="js/materialize.min.js"></script>
+     <script type="text/javascript" src="js/Chart.js"></script>
      <script>
      	$(document).ready(function(){
       		$(".button-collapse").sideNav();
@@ -20,8 +21,17 @@
           	hover: false
     		});
   		});
+     	
 	 </script>
-     
+	 <style>
+	 	.submit-button {
+			text-align: center;
+			padding-top: 1%
+		}
+		.container {
+			padding-top: 5%
+		}
+	 </style>
 	  <ul id="slide-out" class="side-nav">
 	    <li><a href="index.jsp" class="waves-effect"><i class="material-icons">view_module</i>Início</a></li>
 	    <li><a href="analysis.jsp" class="waves-effect"><i class="material-icons">assessment</i>Análises</a></li>
@@ -38,29 +48,36 @@
 	    </div>
 	  </nav>
 	  
-	  <div class="row">
-	  
-	  	<div class="col s6">
-	  	
-	  	</div>
-	  	
-	  	<div class="col s6">
-	  	
-	  	</div>
-	  	
+	  <div class="container">
+		  <div class="row">
+		  
+		  	<div class="col s6">
+				<img src="images/frq_word.PNG">
+		  	</div>
+		  	
+		  	<div class="col s6">
+		  		<img src="images/pct_positive.PNG">
+		  	</div>
+		  	
+		  </div>
+		  
+		  <div class="row">
+		  
+		  	<div class="col s6">
+		  		<img src="images/accy.PNG">
+		  	</div>
+		  	
+		  	<div class="col s6">
+		  	
+		  	</div>
+		  	
+		  </div>
 	  </div>
 	  
-	  <div class="row">
-	  
-	  	<div class="col s6">
-	  	
-	  	</div>
-	  	
-	  	<div class="col s6">
-	  	
-	  	</div>
-	  	
-	  </div>
+
 	  
    </body>
+ <script>
+
+</script>
  </html>

@@ -64,7 +64,7 @@
 					    </ul>
 		            </div>
 		            <div class="card-action">
-		              <a href="success.jsp"><i class="material-icons right">done</i>Salvar</a>
+		              <a href="index.jsp"><i class="material-icons right">done</i>Salvar</a>
 		            </div>
 		          </div>
 		        </div>

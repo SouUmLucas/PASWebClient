@@ -115,7 +115,7 @@
 	        </tbody>
 	      </table>
 		  <div class="submit-button">
-			<a href="success.jsp" class="waves-effect waves-light btn-large"><i class="material-icons right">assignment</i>Analisar</a>
+			<a href="success.jsp" class="waves-effect waves-light btn-large"><i class="material-icons right">assignment</i>Treinar</a>
 		  </div>
 	  </div>
    </body>

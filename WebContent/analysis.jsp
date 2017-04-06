@@ -63,7 +63,10 @@
 	  </nav>
 	  
 	  <div id="messages" class="col s12">
+
 	  	<div class="container">
+		  	<p style="text-align:center; color:teal">Realize a classificação de uma conversa.</p>
+		  	<p style="text-align:center; color:teal">Utilize o campo abaixo para realizar o upload do arquivo a ser classificado</p>
 		  <form action="#">
 		    <div class="file-field input-field">
 		      <div class="btn">
@@ -83,6 +86,8 @@
 	  
 	  <div id="training" class="col s12">
 	  	<div class="container">
+	  	  <p style="text-align:center; color:teal">Use o arquivo de treinamento para a aumentar a precisão das classificações</p>
+		  <p style="text-align:center; color:teal">Utilize o campo abaixo para realizar o upload do arquivo de treinamento</p>
 		  <form action="#">
 		    <div class="file-field input-field">
 		      <div class="btn">
@@ -102,9 +107,11 @@
 	  
 	  <div id="ind_messages" class="col s12">
 	  	<div class="container">
+	  	  <p style="text-align:center; color:teal">Realize a classificação de mensagens individuais</p>
+		  <p style="text-align:center; color:teal">Além de serem armazenadas, elas ajudarão a melhorar a precisão das classificações</p>
 		  <form action="#">
 			<div class="row">
-			    <form class="col s12">
+			    <form action="PASWebClient" method="post" class="col s12">
 			      <div class="row">
 			        <div class="input-field col s6">
 			          <input id="remetente" type="text" name="remetente" class="validate">
@@ -122,7 +129,7 @@
 			        </div>
 			      </div>
 			      <div class="submit-button">
-					<a class="waves-effect waves-light btn-large"><i class="material-icons right">file_upload</i>Enviar</a>
+					<a href="single_classification.jsp" class="waves-effect waves-light btn-large"><i class="material-icons right">file_upload</i>Enviar</a>
 			      </div>
 			    </form>
 			  </div>

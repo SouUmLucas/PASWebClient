@@ -21,7 +21,14 @@
     		});
   		});
 	 </script>
-     
+	 <style>
+	 body {
+    		background-color: teal;
+		}
+	.container {
+		padding-top: 5%;
+	}
+	 </style>
 	  <ul id="slide-out" class="side-nav">
 	    <li><a href="index.jsp" class="waves-effect"><i class="material-icons">view_module</i>Início</a></li>
 	    <li><a href="analysis.jsp" class="waves-effect"><i class="material-icons">assessment</i>Análises</a></li>
@@ -37,5 +44,9 @@
 	      </ul>
 	    </div>
 	  </nav>
+	  <div class="container">
+	  	<h1 style="text-align:center; color:white">PAS Web Client</h1>
+	  	<h5 style="text-align:center; color:white">A web client for Pedophilies Analysis System</h3>
+	  </div>
    </body>
  </html>
