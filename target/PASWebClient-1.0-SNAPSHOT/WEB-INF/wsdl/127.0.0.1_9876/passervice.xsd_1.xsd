@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e. --><xs:schema xmlns:tns="http://sei/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://sei/">
+
+<xs:element name="classify" type="tns:classify"></xs:element>
+
+<xs:element name="classifyResponse" type="tns:classifyResponse"></xs:element>
+
+<xs:element name="createTree" type="tns:createTree"></xs:element>
+
+<xs:element name="createTreeResponse" type="tns:createTreeResponse"></xs:element>
+
+<xs:element name="download" type="tns:download"></xs:element>
+
+<xs:element name="downloadResponse" type="tns:downloadResponse"></xs:element>
+
+<xs:element name="getClassification" type="tns:getClassification"></xs:element>
+
+<xs:element name="getClassificationResponse" type="tns:getClassificationResponse"></xs:element>
+
+<xs:element name="uploadChatFile" type="tns:uploadChatFile"></xs:element>
+
+<xs:element name="uploadChatFileResponse" type="tns:uploadChatFileResponse"></xs:element>
+
+<xs:element name="uploadTrainingFile" type="tns:uploadTrainingFile"></xs:element>
+
+<xs:element name="uploadTrainingFileResponse" type="tns:uploadTrainingFileResponse"></xs:element>
+
+<xs:complexType name="uploadTrainingFile">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="arg1" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="uploadTrainingFileResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getClassification">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getClassificationResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:base64Binary" nillable="true" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="uploadChatFile">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="arg1" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="uploadChatFileResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="createTree">
+<xs:sequence></xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="createTreeResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="classify">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="classifyResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="download">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="downloadResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:base64Binary" nillable="true" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://127.0.0.1:9876/passervice?wsdl" uri="wsdl/127.0.0.1_9876/passervice.wsdl"/>
+    <system systemId="http://127.0.0.1:9876/passervice?wsdl=1" uri="wsdl/127.0.0.1_9876/passervice.wsdl_1.wsdl"/>
+    <system systemId="http://127.0.0.1:9876/passervice?xsd=1" uri="wsdl/127.0.0.1_9876/passervice.xsd_1.xsd"/>
+</catalog>

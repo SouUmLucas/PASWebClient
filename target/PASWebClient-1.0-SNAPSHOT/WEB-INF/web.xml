@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>PASWebClient</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <description></description>
+    <display-name>PASServlet</display-name>
+    <servlet-name>PASServlet</servlet-name>
+    <servlet-class>com.pas.paswebclient.web.PASServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>PASServlet</servlet-name>
+    <url-pattern>/Mensagem</url-pattern>
+    <url-pattern>/Analysis</url-pattern>
+    <url-pattern>/ChatFile</url-pattern>
+    <url-pattern>/MessageClassification</url-pattern>
+    <url-pattern>/Trainingfile</url-pattern>
+    <url-pattern>/Messages</url-pattern>
+    <url-pattern>/Message</url-pattern>
+  </servlet-mapping>
+</web-app>
